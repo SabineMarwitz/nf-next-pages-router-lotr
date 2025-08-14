@@ -3,8 +3,8 @@ import { Geist, Geist_Mono } from "next/font/google";
 
 import { introduction } from "../lib/data";
 import Link from "next/link";
-import Volumes from "../components/volumes";
-
+import Volumes from "../components/Volumes";
+import Button from "../components/Button";
 
 
 const geistSans = Geist({
@@ -28,6 +28,7 @@ export default function Home() {
         
         <h2>All Volumes</h2>
         < Volumes />
+        < Button />
       </main>
     </div>
   );
